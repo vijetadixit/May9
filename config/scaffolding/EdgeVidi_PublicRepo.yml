@@ -1,13 +1,13 @@
 version: "1.0"
 info:
-  scaffold: Test1
+  scaffold: Test2
   model: int-scaffold
 services:
-- serviceName: pub.string:toUpper
+- serviceName: pub.string:toLower
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
-- serviceName: edge.vidi_publicrepo.integrations:Test1
+- serviceName: edge.vidi_publicrepo.integrations:Test2
   packages:
   - name: EdgeVidi_PublicRepo
     version: "1.0"
